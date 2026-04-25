@@ -10,14 +10,18 @@
     <h1>Jeu du Nombre Mystère</h1>
     <div>
       <p>Trouve le Nombre Mystère</p>
-      <div>
+     <form id="form">
+        <p id="error"></p>
+        <p id="hint"></p>
         <input type="text" id="playerinput" />
-        <button id="button">Envoyer</button>
-      </div>
+        <button type="sumbit">Envoyer</button>
+       <p id="error"></p>
       <p id="hint"></p>
-      <p id="chanches"></p>
+      <p id="chances"> Essai : 0/10</p>
       <p id="result"></p>
     </div>
+  </form>
+    </body>
     <script src="index.js"></script>
   </body>
 </html>
